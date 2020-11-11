@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{>header}}
+
+<body>
+
+    <!-- ***********  header start ****************     -->
+    {{>navbar}}
+
+    <header class="main">
+        <div class="d-flex justify-content-center align-items-center flex-column py-5">
+            <h1 class="main_headind">iBlogger</h1>
+            <p class="main_heading__para">Welcome to my <span
+                    class="text-capitalize bg-primary text-white py-2 px-3">World Of Blog</span></p>
+        </div>
+        <!-- ************* main img ************** -->
+        <div class="main_header__div d-flex justify-content-center align-items-start pl-5 flex-column shadow">
+            <p>Khushiyaan</p>
+            <h2 class="animateWord"><span>He is</span>
+                <div>
+                    <ul class="flip">
+                        <li>A Programmer</li>
+                        <li>A Designer</li>
+                        <li>A Student</li>
+                        <li>GoodBoy</li>
+                    </ul>
+                </div>
+            </h2>
+            <button class="btn text-uppercase"> Subscribe </button>
+        </div>
+    </header>
+
+    <!-- ***********  header end ****************     -->
+    <!-- _________________________________________________________________________ -->
+    <!-- ***********  two side div start ****************     -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- //////////////////////to get the left and right side div SPACE//////////////////// -->
+            <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+                <div class="row gx-5 mx sm-auto">
+                    <!-- //////////////left div space///////////// -->
+                    <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                        <div class="row gy-5">
+                            <!-- /////////////  first post  ////////// -->
+                            <div class="card col-12 p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1 class="">BEST LAPTOP IN 2020</h1>
+                                    <p class="blog_title">Title Description<span> Sep 20, 2020</span></p>
+                                </div>
+                                <figure class="right_side_img mb-5 ">
+                                    <img class="img1" src="img/right 1.jpg" alt="">
+                                </figure>
+                                <p><span class="font-weight-bold">KHUSHIYAAN TECH</span>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate inventore
+                                    beatae reiciendis temporibus quo dolorem tempore ratione quod alias architecto
+                                    voluptatum aperiam deserunt mollitia, a officiis corrupti veniam labore. Dolor!
+                                </p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptate
+                                    explicabo eveniet doloremque exercitationem vitae ab voluptas temporibus eius
+                                    voluptatem?</p>
+                                <div class="d-flex justify-content-between left_div_btn">
+
+                                    <div>
+                                        <button class="left_div_like" id="like">
+                                            <i class="fas fa-thumbs-up"></i>Like
+                                        </button>
+                                    </div>
+
+                                    <div>
+                                        <button class="left_div_reply " onclick="reply('reply1')">
+                                            Replies <badge class="bg-white text-dark px-2"></badge>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="replies" id="reply1">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-self-center card reply-card py-3">
+                                        <div class="reply-img mx-2 align-items-cener">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                alt="">
+                                        </div>
+                                        <div class="reply_text_left">
+                                            <p class="blog_title"><span class="font-weight-bold"> Khush</span>
+                                                Sep 21 2020, 5:00 pm</p>
+                                            <p>Awesome,Bro Thanks For Comment</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- //////////////  second post  ///////////// -->
+                            <div class="card col-12 p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1 class="">BEST LAPTOP IN 2020</h1>
+                                    <p class="blog_title">Title Description<span> Sep 20, 2020</span></p>
+                                </div>
+                                <figure class="right_side_img mb-5 ">
+                                    <img class="img1" src="img/1.jpg" alt="">
+                                </figure>
+                                <p><span class="font-weight-bold">KHUSHIYAAN TECH</span>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate inventore
+                                    beatae reiciendis temporibus quo dolorem tempore ratione quod alias architecto
+                                    voluptatum aperiam deserunt mollitia, a officiis corrupti veniam labore. Dolor!
+                                </p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptate
+                                    explicabo eveniet doloremque exercitationem vitae ab voluptas temporibus eius
+                                    voluptatem?</p>
+                                <div class="d-flex justify-content-between left_div_btn">
+
+                                    <div>
+                                        <button class="left_div_like" id="like">
+                                            <i class="fas fa-thumbs-up"></i>Like
+                                        </button>
+                                    </div>
+
+                                    <div>
+                                        <button class="left_div_reply " onclick="reply('reply1')">
+                                            Replies <badge class="bg-white text-dark px-2"></badge>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="replies" id="reply1">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-self-center card reply-card py-3">
+                                        <div class="reply-img mx-2 align-items-cener">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                alt="">
+                                        </div>
+                                        <div class="reply_text_left">
+                                            <p class="blog_title"><span class="font-weight-bold"> Khush</span>
+                                                Sep 21 2020, 5:00 pm</p>
+                                            <p>Awesome,Bro Thanks For Comment</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- /////////////  third post   ///////////// -->
+                            <div class="card col-12 p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1 class="">BEST LAPTOP IN 2020</h1>
+                                    <p class="blog_title">Title Description<span> Sep 20, 2020</span></p>
+                                </div>
+                                <figure class="right_side_img mb-5 ">
+                                    <img class="img1" src="img/5.jpg" alt="">
+                                </figure>
+                                <p><span class="font-weight-bold">KHUSHIYAAN TECH</span>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate inventore
+                                    beatae reiciendis temporibus quo dolorem tempore ratione quod alias architecto
+                                    voluptatum aperiam deserunt mollitia, a officiis corrupti veniam labore. Dolor!
+                                </p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptate
+                                    explicabo eveniet doloremque exercitationem vitae ab voluptas temporibus eius
+                                    voluptatem?</p>
+                                <div class="d-flex justify-content-between left_div_btn">
+
+                                    <div>
+                                        <button class="left_div_like" id="like">
+                                            <i class="fas fa-thumbs-up"></i>Like
+                                        </button>
+                                    </div>
+
+                                    <div>
+                                        <button class="left_div_reply " onclick="reply('reply1')">
+                                            Replies <badge class="bg-white text-dark p-2">1</badge>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="replies" id="reply1">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-self-center card reply-card py-3">
+                                        <div class="reply-img mx-2 align-items-cener">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                alt="">
+                                        </div>
+                                        <div class="reply_text_left">
+                                            <p class="blog_title"><span class="font-weight-bold"> Khush</span>
+                                                Sep 21 2020, 5:00 pm</p>
+                                            <p>Awesome,Bro Thanks For Comment</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ///////////////// left div space end  //////////// -->
+                    <div class="col-lg-3 col md-7 col-11 justify-content-end m-lg-0 m-auto">
+                        <div class="row gy-5 left_div_blog">
+                            <!-- //////////////  About me part  //////////// -->
+                            <div class="col-12 shadow about_me_div">
+                                <h3>Khush <span>Chodavadiya</span></h3>
+                                <p>Just me, myself, i .... I Am a Software Engneer, I Have 10 years experiance in
+                                    software Engneer field....</p>
+                            </div>
+                            <!-- /////////// popular post  //////////// -->
+                            <div class="popular_post">
+                                <div class="right_div_title py-4 pl-2">
+                                    <h2>Popular Post</h2>
+                                </div>
+                                <div class="right_sub_div shadow">
+                                    <div class="row">
+                                        <div class="col-3 popular_post_img py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Bill Gates</h3>
+                                            <p>CEO Microsoft</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular_post_img py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Mark Zucerburg</h3>
+                                            <p>CEO Facebook</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular_post_img py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Ratan TATA</h3>
+                                            <p>CEO TATA</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular_post_img py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Mukesh Ambani</h3>
+                                            <p>CEO Relience Jio</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular_post_img py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Narendra Modi</h3>
+                                            <p>PM Of India</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- ////////////////  Advertise post   //////////// -->
+                            <div class="advertise">
+                                <div class="advertise_title py-4 pl-2">
+                                    <h2>Advertise</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***********  two side div end ****************     -->
+
+    {{>footer}}
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="index1.js"></script>
+</body>
+
+</html>

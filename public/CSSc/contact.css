@@ -1,0 +1,27 @@
+
+
+.contact_content{
+    height: 80vh;
+    /* background-color: rgb(248, 235, 248); */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 2px solid #000; */
+    
+    position: relative;
+    overflow: hidden;
+}
+.contact_content::after{
+    content: '';
+    top: 0;
+    position: absolute;
+    background: url("../img/3_2.jpg") center/cover no-repeat;
+    width: 100%;
+    height: inherit;
+    opacity: .15;
+    border-radius: 15px;
+    z-index: -1;
+}
+.form_box input::placeholder{
+    color:black;
+    font-family: var(--font1);
+}
